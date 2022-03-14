@@ -1,0 +1,105 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rajdhani', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+
+}
+
+header .header-container {
+    padding: 10px;
+} 
+.card-header-batman {
+    background-image: url(../img/batcaverna.jpg);
+    padding: 25px 25px 159px 25px;
+    height: 218px;
+}
+
+.card-header-alerquina {
+    background-image: url("../img/fundo\ alerquina.jpg");
+    padding: 25px 25px 159px 25px;
+    height: 218px;
+}
+
+header .desconto {
+    background-color: #1CD1B0;
+    padding: 10px;
+}
+
+header .titulo {
+    background-color: #00669F;
+}
+
+main {
+    margin: 77px;
+}
+main .container {
+    width: 835px;
+    margin: 0 auto;
+    
+}
+
+.card-personagem {
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 374px;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.card-desc {
+    height: 145px;
+    margin-top: 85px;
+    text-align: center;
+}
+
+.card-foto-perfil-batman {
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 60px;
+    z-index: 0;
+}
+
+.card-foto-perfil-alerquina {
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 60px;
+    z-index: 0;
+}
+
+input{
+    background-color: #00669F;
+    padding: 30px;
+    margin: 20px;
+    margin-left: 135px;
+    width: 145px;
+    height: 54px;
+    color: white;
+    position:relative;
+    justify-content: center;
+
+}
+
+.rodape {
+    background-color: #00669F;
+    height: 51px;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.textorodape {
+    color: white;
+    justify-conte
+
+}
